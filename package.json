@@ -13,9 +13,11 @@
     "@0x/sol-profiler": "^1.0.3",
     "@0x/sol-trace": "^1.0.3",
     "@0x/subproviders": "^2.1.11",
+    "ethereum-waffle": "^2.0.2",
+    "ethers": "^4.0.21",
     "istanbul": "^0.4.5",
-    "truffle": "^5.0.2",
     "shx": "^0.3.2",
+    "truffle": "^5.0.2",
     "web3-provider-engine": "^14.1.0"
   }
 }
