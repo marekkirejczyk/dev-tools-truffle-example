@@ -57,6 +57,7 @@ contract("MetaCoin with truffle", accounts => {
 
 describe("MetaCoin with ethers.js", () => {
   const provider = new providers.JsonRpcProvider('http://localhost:8545');
+  provider.pollingInterval = 5;
   const privateKey = '0xf2f48ee19680706196e2e339e5da3491186e0c4c5030670656b0e0164837257d';
   const wallet = new Wallet (privateKey, provider);
 
